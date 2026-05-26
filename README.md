@@ -1,6 +1,6 @@
-# 🌾 Explainable Farming AI
+# Explainable Farming AI
 
-## 📌 Project Overview
+##  Project Overview
 
 Explainable Farming AI is an intelligent agriculture support system that helps farmers and agricultural researchers identify the most suitable crop based on soil nutrients and environmental conditions.
 
@@ -10,7 +10,7 @@ The application is developed using Machine Learning, Streamlit, and SHAP visuali
 
 ---
 
-# 🎯 Objectives
+#  Objectives
 
 - Predict the best crop for cultivation
 - Analyze soil and weather conditions
@@ -20,9 +20,9 @@ The application is developed using Machine Learning, Streamlit, and SHAP visuali
 
 ---
 
-# 🚀 Features
+#  Features
 
-## 🌱 Crop Recommendation
+##  Crop Recommendation
 Predicts the most suitable crop using machine learning algorithms trained on agricultural datasets.
 
 ## 📊 Explainable AI (XAI)
@@ -31,20 +31,20 @@ Uses SHAP visualizations to explain:
 - Prediction reasoning
 - Impact of each soil/weather parameter
 
-## ⚠️ Smart Risk Alerts
+##  Smart Risk Alerts
 Detects abnormal farming conditions such as:
 - Low rainfall
 - High temperature
 - Unbalanced soil nutrients
 
-## 🎛️ Interactive Dashboard
+##  Interactive Dashboard
 Simple and clean Streamlit interface with:
 - Sliders
 - Input boxes
 - Graphs
 - Prediction results
 
-## 📈 Data Visualization
+##  Data Visualization
 Displays:
 - SHAP waterfall plots
 - Feature contribution charts
@@ -52,7 +52,7 @@ Displays:
 
 ---
 
-# 🧠 Machine Learning Workflow
+#  Machine Learning Workflow
 
 ``text
 User Input
