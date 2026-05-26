@@ -51,18 +51,3 @@ Displays:
 - Prediction confidence
 
 ---
-
-#  Machine Learning Workflow
-
-``text
-User Input
-   ↓
-Data Preprocessing
-   ↓
-Machine Learning Model
-   ↓
-Crop Prediction
-   ↓
-SHAP Explainability
-   ↓
-Final Recommendation
