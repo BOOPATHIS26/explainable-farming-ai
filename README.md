@@ -25,7 +25,7 @@ The application is developed using Machine Learning, Streamlit, and SHAP visuali
 ##  Crop Recommendation
 Predicts the most suitable crop using machine learning algorithms trained on agricultural datasets.
 
-## 📊 Explainable AI (XAI)
+## Explainable AI (XAI)
 Uses SHAP visualizations to explain:
 - Feature importance
 - Prediction reasoning
