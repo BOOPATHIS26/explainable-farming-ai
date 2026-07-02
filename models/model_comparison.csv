@@ -1,0 +1,6 @@
+Model,Accuracy,Precision,Recall,F1 Score,CV Mean,CV Std,Training Time (s)
+Logistic Regression,0.9432,0.9451,0.9432,0.943,0.9677,0.0053,1.2025
+Decision Tree,0.9795,0.9806,0.9795,0.9794,0.9877,0.0034,0.0298
+KNN,0.9773,0.9785,0.9773,0.9772,0.9795,0.0014,0.0154
+Random Forest,0.9955,0.9957,0.9955,0.9955,0.9941,0.0031,1.1206
+Gradient Boosting,0.9886,0.9897,0.9886,0.9887,0.9905,0.0039,19.764

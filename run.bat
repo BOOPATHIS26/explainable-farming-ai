@@ -52,17 +52,13 @@ echo ✅ Dependencies installed
 
 echo.
 echo Checking if dataset exists...
-if not exist "data\crop_recommendation.csv" (
-    echo Generating dataset (this may take a moment)...
-    python data_generator.py
-    if errorlevel 1 (
-        echo ❌ Failed to generate dataset
-        pause
-        exit /b 1
-    )
-    echo ✅ Dataset generated
+if not exist "data\Crop.csv" (
+    echo ❌ Dataset not found at data\Crop.csv
+    echo Please add your dataset file to data\Crop.csv and rerun this script.
+    pause
+    exit /b 1
 ) else (
-    echo ✅ Dataset already exists
+    echo ✅ Dataset found at data\Crop.csv
 )
 
 echo.

@@ -48,16 +48,12 @@ echo "✅ Dependencies installed"
 
 echo ""
 echo "Checking if dataset exists..."
-if [ ! -f "data/crop_recommendation.csv" ]; then
-    echo "Generating dataset (this may take a moment)..."
-    python data_generator.py
-    if [ $? -ne 0 ]; then
-        echo "❌ Failed to generate dataset"
-        exit 1
-    fi
-    echo "✅ Dataset generated"
+if [ ! -f "data/Crop.csv" ]; then
+    echo "❌ Dataset not found at data/Crop.csv"
+    echo "Please add your dataset file to data/Crop.csv and rerun this script."
+    exit 1
 else
-    echo "✅ Dataset already exists"
+    echo "✅ Dataset found at data/Crop.csv"
 fi
 
 echo ""

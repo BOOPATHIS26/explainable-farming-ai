@@ -1,0 +1,310 @@
+{
+  "apple": {
+    "crop_name": "Apple",
+    "min_harvest_days": 120,
+    "max_harvest_days": 180,
+    "average_harvest_days": 150,
+    "season": "Rabi",
+    "description": "Apple orchards prefer cool climates and need well-drained soil with adequate chilling hours.",
+    "timeline": [
+      "Day 1 : Sowing",
+      "Day 45 : Vegetative Growth",
+      "Day 90 : Fruit Set",
+      "Day 120–180 : Harvest"
+    ]
+  },
+  "banana": {
+    "crop_name": "Banana",
+    "min_harvest_days": 240,
+    "max_harvest_days": 300,
+    "average_harvest_days": 270,
+    "season": "Zaid",
+    "description": "Banana thrives in warm, humid climates with rich, well-drained soil and regular irrigation.",
+    "timeline": [
+      "Day 1 : Sowing",
+      "Day 60 : Vegetative Growth",
+      "Day 150 : Bunch Formation",
+      "Day 240–300 : Harvest"
+    ]
+  },
+  "blackgram": {
+    "crop_name": "Blackgram",
+    "min_harvest_days": 70,
+    "max_harvest_days": 90,
+    "average_harvest_days": 80,
+    "season": "Kharif",
+    "description": "Blackgram grows well in warm weather and light soils with moderate rainfall.",
+    "timeline": [
+      "Day 1 : Sowing",
+      "Day 20 : Vegetative Growth",
+      "Day 50 : Flowering",
+      "Day 70–90 : Harvest"
+    ]
+  },
+  "chickpea": {
+    "crop_name": "Chickpea",
+    "min_harvest_days": 90,
+    "max_harvest_days": 120,
+    "average_harvest_days": 105,
+    "season": "Rabi",
+    "description": "Chickpea prefers well-drained loamy soils and a cool, dry growing season.",
+    "timeline": [
+      "Day 1 : Sowing",
+      "Day 30 : Vegetative Growth",
+      "Day 60 : Flowering",
+      "Day 90–120 : Harvest"
+    ]
+  },
+  "coconut": {
+    "crop_name": "Coconut",
+    "min_harvest_days": 360,
+    "max_harvest_days": 540,
+    "average_harvest_days": 450,
+    "season": "Kharif",
+    "description": "Coconut palms need coastal, warm climates with high humidity and plenty of water.",
+    "timeline": [
+      "Day 1 : Planting",
+      "Day 120 : Vegetative Growth",
+      "Day 300 : Flowering",
+      "Day 360–540 : Harvest"
+    ]
+  },
+  "coffee": {
+    "crop_name": "Coffee",
+    "min_harvest_days": 270,
+    "max_harvest_days": 365,
+    "average_harvest_days": 320,
+    "season": "Rabi",
+    "description": "Coffee prefers shaded, well-drained soils and moderate rainfall in tropical highland areas.",
+    "timeline": [
+      "Day 1 : Planting",
+      "Day 90 : Vegetative Growth",
+      "Day 180 : Flowering",
+      "Day 270–365 : Harvest"
+    ]
+  },
+  "cotton": {
+    "crop_name": "Cotton",
+    "min_harvest_days": 150,
+    "max_harvest_days": 180,
+    "average_harvest_days": 165,
+    "season": "Kharif",
+    "description": "Cotton grows best in warm temperatures with fertile, well-drained soils and moderate rainfall.",
+    "timeline": [
+      "Day 1 : Sowing",
+      "Day 30 : Vegetative Growth",
+      "Day 90 : Flowering",
+      "Day 150–180 : Harvest"
+    ]
+  },
+  "grapes": {
+    "crop_name": "Grapes",
+    "min_harvest_days": 120,
+    "max_harvest_days": 160,
+    "average_harvest_days": 140,
+    "season": "Rabi",
+    "description": "Grapes need well-drained soil, warm days, cool nights, and careful canopy management.",
+    "timeline": [
+      "Day 1 : Sowing",
+      "Day 40 : Vegetative Growth",
+      "Day 90 : Flowering",
+      "Day 120–160 : Harvest"
+    ]
+  },
+  "jute": {
+    "crop_name": "Jute",
+    "min_harvest_days": 100,
+    "max_harvest_days": 150,
+    "average_harvest_days": 125,
+    "season": "Kharif",
+    "description": "Jute prefers warm, humid climates and loamy, well-drained soils with plentiful water.",
+    "timeline": [
+      "Day 1 : Sowing",
+      "Day 20 : Vegetative Growth",
+      "Day 70 : Flowering",
+      "Day 100–150 : Harvest"
+    ]
+  },
+  "kidneybeans": {
+    "crop_name": "Kidney Beans",
+    "min_harvest_days": 90,
+    "max_harvest_days": 110,
+    "average_harvest_days": 100,
+    "season": "Rabi",
+    "description": "Kidney beans require well-drained, fertile soils and a cool, dry ripening period.",
+    "timeline": [
+      "Day 1 : Sowing",
+      "Day 25 : Vegetative Growth",
+      "Day 55 : Flowering",
+      "Day 90–110 : Harvest"
+    ]
+  },
+  "lentil": {
+    "crop_name": "Lentil",
+    "min_harvest_days": 90,
+    "max_harvest_days": 110,
+    "average_harvest_days": 100,
+    "season": "Rabi",
+    "description": "Lentil does well in cooler climates and needs well-drained soil with moderate moisture.",
+    "timeline": [
+      "Day 1 : Sowing",
+      "Day 20 : Vegetative Growth",
+      "Day 55 : Flowering",
+      "Day 90–110 : Harvest"
+    ]
+  },
+  "maize": {
+    "crop_name": "Maize",
+    "min_harvest_days": 90,
+    "max_harvest_days": 120,
+    "average_harvest_days": 105,
+    "season": "Kharif",
+    "description": "Maize prefers warm weather, fertile soils, and regular irrigation during tasseling and grain filling.",
+    "timeline": [
+      "Day 1 : Sowing",
+      "Day 30 : Vegetative Growth",
+      "Day 60 : Flowering",
+      "Day 90–120 : Harvest"
+    ]
+  },
+  "mango": {
+    "crop_name": "Mango",
+    "min_harvest_days": 180,
+    "max_harvest_days": 240,
+    "average_harvest_days": 210,
+    "season": "Zaid",
+    "description": "Mango trees thrive in warm climates with well-drained soils and a distinct dry period before harvest.",
+    "timeline": [
+      "Day 1 : Planting",
+      "Day 90 : Vegetative Growth",
+      "Day 150 : Flowering",
+      "Day 180–240 : Harvest"
+    ]
+  },
+  "mothbeans": {
+    "crop_name": "Mothbeans",
+    "min_harvest_days": 75,
+    "max_harvest_days": 90,
+    "average_harvest_days": 82,
+    "season": "Kharif",
+    "description": "Mothbeans are drought-tolerant pulses suited to hot, dry regions with sandy loam soil.",
+    "timeline": [
+      "Day 1 : Sowing",
+      "Day 20 : Vegetative Growth",
+      "Day 50 : Flowering",
+      "Day 75–90 : Harvest"
+    ]
+  },
+  "mungbean": {
+    "crop_name": "Mungbean",
+    "min_harvest_days": 70,
+    "max_harvest_days": 95,
+    "average_harvest_days": 82,
+    "season": "Kharif",
+    "description": "Mungbean is a fast-maturing pulse crop that prefers warm weather and well-drained soils.",
+    "timeline": [
+      "Day 1 : Sowing",
+      "Day 20 : Vegetative Growth",
+      "Day 45 : Flowering",
+      "Day 70–95 : Harvest"
+    ]
+  },
+  "muskmelon": {
+    "crop_name": "Muskmelon",
+    "min_harvest_days": 80,
+    "max_harvest_days": 100,
+    "average_harvest_days": 90,
+    "season": "Zaid",
+    "description": "Muskmelon prefers warm days, cool nights, and sandy loam soil with good drainage.",
+    "timeline": [
+      "Day 1 : Sowing",
+      "Day 20 : Vegetative Growth",
+      "Day 45 : Flowering",
+      "Day 80–100 : Harvest"
+    ]
+  },
+  "orange": {
+    "crop_name": "Orange",
+    "min_harvest_days": 240,
+    "max_harvest_days": 300,
+    "average_harvest_days": 270,
+    "season": "Rabi",
+    "description": "Orange trees need subtropical climate with good sunlight and well-drained, slightly acidic soils.",
+    "timeline": [
+      "Day 1 : Planting",
+      "Day 120 : Vegetative Growth",
+      "Day 180 : Flowering",
+      "Day 240–300 : Harvest"
+    ]
+  },
+  "papaya": {
+    "crop_name": "Papaya",
+    "min_harvest_days": 180,
+    "max_harvest_days": 240,
+    "average_harvest_days": 210,
+    "season": "Zaid",
+    "description": "Papaya grows quickly in warm, frost-free climates with rich, sandy loam soils.",
+    "timeline": [
+      "Day 1 : Sowing",
+      "Day 60 : Vegetative Growth",
+      "Day 120 : Flowering",
+      "Day 180–240 : Harvest"
+    ]
+  },
+  "pigeonpeas": {
+    "crop_name": "Pigeon Peas",
+    "min_harvest_days": 130,
+    "max_harvest_days": 160,
+    "average_harvest_days": 145,
+    "season": "Kharif",
+    "description": "Pigeon peas tolerate drought and grow well in warm climates with light to medium soils.",
+    "timeline": [
+      "Day 1 : Sowing",
+      "Day 40 : Vegetative Growth",
+      "Day 90 : Flowering",
+      "Day 130–160 : Harvest"
+    ]
+  },
+  "pomegranate": {
+    "crop_name": "Pomegranate",
+    "min_harvest_days": 150,
+    "max_harvest_days": 180,
+    "average_harvest_days": 165,
+    "season": "Rabi",
+    "description": "Pomegranate prefers hot, dry summers and cool winters with well-drained soils.",
+    "timeline": [
+      "Day 1 : Planting",
+      "Day 60 : Vegetative Growth",
+      "Day 120 : Flowering",
+      "Day 150–180 : Harvest"
+    ]
+  },
+  "rice": {
+    "crop_name": "Rice",
+    "min_harvest_days": 120,
+    "max_harvest_days": 150,
+    "average_harvest_days": 135,
+    "season": "Kharif",
+    "description": "Rice grows best in warm and humid climates with sufficient water availability.",
+    "timeline": [
+      "Day 1 : Sowing",
+      "Day 30 : Vegetative Growth",
+      "Day 70 : Flowering",
+      "Day 120–150 : Harvest"
+    ]
+  },
+  "watermelon": {
+    "crop_name": "Watermelon",
+    "min_harvest_days": 80,
+    "max_harvest_days": 110,
+    "average_harvest_days": 95,
+    "season": "Zaid",
+    "description": "Watermelon thrives in warm weather with sandy soils and steady moisture during fruit development.",
+    "timeline": [
+      "Day 1 : Sowing",
+      "Day 25 : Vegetative Growth",
+      "Day 55 : Flowering",
+      "Day 80–110 : Harvest"
+    ]
+  }
+}

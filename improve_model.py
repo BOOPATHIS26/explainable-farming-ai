@@ -1,3 +1,4 @@
+import os
 import pandas as pd
 import numpy as np
 from sklearn.ensemble import RandomForestClassifier, GradientBoostingClassifier
@@ -5,8 +6,24 @@ from sklearn.preprocessing import LabelEncoder
 from sklearn.model_selection import train_test_split, cross_val_score
 from sklearn.metrics import accuracy_score, classification_report
 
-# Load data
-df = pd.read_csv('data/crop_recommendation.csv')
+
+def load_crop_data():
+    candidate_paths = [
+        'data/Crop.csv',
+        'data/crop_recommendation.csv'
+    ]
+    for path in candidate_paths:
+        if os.path.exists(path):
+            df = pd.read_csv(path)
+            if 'ph' in df.columns and 'pH' not in df.columns:
+                df = df.rename(columns={'ph': 'pH'})
+            return df
+    raise FileNotFoundError(
+        'Dataset not found. Please place your dataset file at data/Crop.csv.'
+    )
+
+
+df = load_crop_data()
 X = df.drop('label', axis=1)
 y = df['label']
 
@@ -42,9 +59,23 @@ gb_acc = accuracy_score(y_test, gb.predict(X_test))
 print(f"✅ Gradient Boosting      : {gb_acc*100:.2f}%")
 
 # Model 3: Try with more data
-from data_generator import generate_crop_dataset
-print("\nGenerating larger dataset (5000 samples)...")
-df_large = generate_crop_dataset(n_samples=5000)
+print("\nLoading larger dataset from Crop.csv (5000 samples expected)...")
+from pathlib import Path
+
+candidate_paths = [
+    Path('data/Crop.csv'),
+    Path('data/crop_recommendation.csv')
+]
+for candidate in candidate_paths:
+    if candidate.exists():
+        df_large = pd.read_csv(candidate)
+        break
+else:
+    raise FileNotFoundError('Dataset not found at data/Crop.csv or data/crop_recommendation.csv.')
+
+if 'ph' in df_large.columns and 'pH' not in df_large.columns:
+    df_large = df_large.rename(columns={'ph': 'pH'})
+
 X_large = df_large.drop('label', axis=1)
 y_large = encoder.fit_transform(df_large['label'])
 
